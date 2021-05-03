@@ -7,10 +7,8 @@
 
   
         <p class="vst-text"><b><?= __("Github repo") ?></b></p>
-        <input type="text" class="vst-input" name="github-url" required/>
+       <p> <input type="text" class="vst-input" name="github-url" required/></p>
     
-
-    <br><br>
 
     <select name="web_domain" class="vst-list" required>
         <option value=""><?= __("Select a web domain") ?></option>
@@ -36,5 +34,10 @@
 
     <input type="hidden" name="action" value="install"/>
     <button class="button confirm" type="submit"><?= __("Install") ?></button>
+</form>
+
+<form action="index.php" method="post">
+<input type="hidden" name="action" value="runtimes"/>
+    <button class="button" type="submit"><?= __(".net runtime versions") ?></button>
 </form>
 </div>

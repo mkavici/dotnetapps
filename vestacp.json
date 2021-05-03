@@ -1,7 +1,7 @@
 {
     "name": "dotnetapps",
     "description": ".Net Applications for Vesta",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "min-vesta": "0.9.8",
     "repository": "https://github.com/mkavici/dotnetapps",
     "homepage": "https://github.com/mkavici/dotnetapps#readme",
