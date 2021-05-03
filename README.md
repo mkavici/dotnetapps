@@ -10,7 +10,7 @@ A Vesta plugin to simplify installing and managing ASP.NET Core applications wit
 
 ## Installation
 1. Install [VestaCP Plugin Manager](https://github.com/jhmaverick/vestacp-plugin-manager) if not already installed.
-2. In the Vesta panel access "Plugins" menu and add the plugin by url: `https://github.com/azureskydiver/dotnetapps`
+2. In the Vesta panel access "Plugins" menu and add the plugin by url: `https://github.com/mkavici/dotnetapps`
 
 ## Usage
 - Click on **.Net Apps** on the Vesta Control panel tool bar; OR
