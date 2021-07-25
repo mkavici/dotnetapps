@@ -15,3 +15,5 @@ A Vesta plugin to simplify installing and managing ASP.NET Core applications wit
 ## Usage
 - Click on **.Net Apps** on the Vesta Control panel tool bar; OR
 - Visit the the '/plugin/dna' site on your Vesta Control panel. Ex. `http://example.com:8083/plugin/dna/`
+
+https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-3.1

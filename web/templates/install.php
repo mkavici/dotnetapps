@@ -1,16 +1,39 @@
 <?php if (!class_exists('Vesta')) exit; ?>
 
+
+<div class="l-center">
+    <div class="l-sort clearfix noselect">
+        <a class="l-sort__create-btn" href="/plugin-manager/add/" title="<?= __('Install plugin') ?>"></a>
+
+        <div class="l-sort-toolbar clearfix" style="min-height: 30px;">
+            <table>
+                <tr>
+                    <td class="step-right">
+                        <a class="vst" href="/plugin/dotnetapps/info"><?=__('.net info')?> <i></i></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
 <div class="l-center units vestacp-web-apps">
 
 <form action="index.php" method="post">
     <h1><?= __(".net Web Apps") ?></h1>
 
   
-        <p class="vst-text"><b><?= __("Github repo") ?></b></p>
-       <p> <input type="text" class="vst-input" name="github-url" required/></p>
+        <p class="vst-text"><b><?= __("Github repo Name") ?></b></p>
+       <p> <input type="text" class="vst-input" name="githubRepoName" required/></p>
+
+       <p class="vst-text"><b><?= __("Github User Name") ?></b></p>
+       <p> <input type="text" class="vst-input" name="githubUser" required/></p>
+
+       <p class="vst-text"><b><?= __("Github Token") ?></b></p>
+       <p> <input type="text" class="vst-input" name="githubToken" required/></p>
     
 
-    <select name="web_domain" class="vst-list" required>
+    <select name="webDomain" class="vst-list" required>
         <option value=""><?= __("Select a web domain") ?></option>
         <?php
         $users = Vesta::exec("v-list-users", "json");
